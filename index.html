@@ -207,12 +207,18 @@
       flex: 1; padding: 0 10px;
     }
     .logo-item img {
-      height: 26px; width: auto; max-width: 90px;
+      height: 28px; width: auto; max-width: 100%;
       object-fit: contain; display: block;
       opacity: 1;
       transition: opacity .25s;
     }
     .logo-item img:hover { opacity: 0.65; }
+    /* Square/icon logos */
+    .logo-sq img { height: 40px; max-width: 100%; }
+    /* West Marine, Delicato, OtterBox — taller to match visual weight */
+    .logo-west-marine img { height: 62px; max-width: 100%; }
+    .logo-delicato img   { height: 52px; max-width: 100%; }
+    .logo-otter img      { height: 56px; max-width: 100%; }
 
     /* ── AWARDS & RECOGNITIONS ── */
     #awards {
@@ -915,7 +921,8 @@
       .logo-grid-wrap { padding: 16px 0; }
       .logo-grid-row { flex-wrap: wrap; gap: 8px; justify-content: center; }
       .logo-item { flex: 0 0 calc(25% - 6px); min-width: 60px; }
-      .logo-item img { height: 28px; max-width: 80px; }
+      .logo-item img { height: 24px; max-width: 100px; }
+      .logo-sq img { height: 32px; width: 32px; max-width: 32px; }
 
       /* ── Grids ── */
       .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
@@ -1282,14 +1289,14 @@
     <!-- Row 1: 10 logos -->
     <div class="logo-grid-row">
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" alt="Meta"></div>
-      <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/General_Electric_logo.svg" alt="GE"></div>
+      <div class="logo-item logo-sq"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/General_Electric_logo.svg" alt="GE"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Johnson_and_Johnson_Logo.svg" alt="Johnson &amp; Johnson"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Unilever_text_logo.svg" alt="Unilever"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Pfizer_%282021%29.svg" alt="Pfizer"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Cardinal_Health_Logo.svg" alt="Cardinal Health"></div>
-      <div class="logo-item"><img src="https://cdn.worldvectorlogo.com/logos/west-marine.svg" alt="West Marine"></div>
-      <div class="logo-item"><img src="https://images.seeklogo.com/logo-png/3/1/delicato-logo-png_seeklogo-39652.png" alt="Delicato"></div>
-      <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Albert_Heijn_Logo.svg" alt="Albert Heijn"></div>
+      <div class="logo-item logo-west-marine"><img src="https://cdn.worldvectorlogo.com/logos/west-marine.svg" alt="West Marine"></div>
+      <div class="logo-item logo-delicato"><img src="./FH_Latest_files/69e83d0a733124be9c81d5f3_delicato.webp" alt="Delicato"></div>
+      <div class="logo-item logo-sq"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Albert_Heijn_Logo.svg" alt="Albert Heijn"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Spectrum_Brands_logo.png" alt="Spectrum Brands"></div>
     </div>
 
@@ -1302,7 +1309,7 @@
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Uline_logo.svg" alt="Uline"></div>
       <div class="logo-item"><img src="https://gmicompanies.com/wp-content/uploads/2024/07/GMi-Logo-79px.png" alt="GMi Companies"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Inspire-Brands-Logo-with-Portfolio.png" alt="Inspire Brands"></div>
-      <div class="logo-item"><img src="https://images.seeklogo.com/logo-png/53/1/otterbox-logo-png_seeklogo-534239.png" alt="Otter Products"></div>
+      <div class="logo-item logo-otter"><img src="https://images.seeklogo.com/logo-png/35/1/otterbox-logo-png_seeklogo-354046.png" alt="Otter Products"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/de/8/82/Littelfuse_logo.svg" alt="Littelfuse"></div>
       <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Samsara_%28company%29_Logo.svg" alt="Samsara"></div>
     </div>
